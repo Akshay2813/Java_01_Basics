@@ -1,4 +1,4 @@
-package com.java.program;
+package com.java.program.basicprogram;
 
 public class Pattern_7 {
 //        * * * * *

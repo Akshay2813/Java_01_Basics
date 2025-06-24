@@ -1,4 +1,4 @@
-package com.java.program;
+package com.java.basics;
 
 public class P2_Datatype {
 

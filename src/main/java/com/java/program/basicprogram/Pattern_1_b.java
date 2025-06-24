@@ -1,8 +1,8 @@
-package com.java.program;
+package com.java.program.basicprogram;
 
 import java.util.Scanner;
 
-public class Pattern_1_a {
+public class Pattern_1_b {
 
     public static void main(String[] args)
     {
@@ -12,7 +12,7 @@ public class Pattern_1_a {
 
         for (int i=0;i<n;i++)
         {
-            System.out.print("*");
+            System.out.println("*");
         }
     }
 }
