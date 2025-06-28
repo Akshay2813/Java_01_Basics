@@ -1,6 +1,6 @@
-package com.java.program.basicprogram;
+package com.java.basics.array.basics;
 
-public class Program_02_largestElementInArr {
+public class Program_01_largestElementInArr {
 
     public static void main(String[] args) {
         System.out.println("Largest Element in Array is " + largestElementInArr(new int[] {100,50,200,300,400}));
