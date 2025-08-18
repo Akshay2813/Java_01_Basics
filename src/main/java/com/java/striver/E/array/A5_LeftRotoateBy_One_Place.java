@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class A5_LeftRotoateBy_One_Place {
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 4, 5};
+        //ans>>      2, 3, 4, 5, 1
         System.out.println(Arrays.toString(arr));
         leftRototeArrByOnePlace(arr);
         System.out.println(Arrays.toString(arr));

@@ -15,8 +15,8 @@ public class A7_RightRotate_One_Place {
         //5 1 2 3 4
         int temp = arr[arr.length-1];//5
         for (int i = arr.length-1; i >0 ; i--) {
-            arr[i] = arr[i -1];
+            arr[i] = arr[i -1];  //     1 1 2 3 4
         }
-        arr[0] = temp;
+        arr[0] = temp;  // 5 1 2 3 4
     }
 }
