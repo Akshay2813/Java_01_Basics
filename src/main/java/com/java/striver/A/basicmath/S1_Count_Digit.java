@@ -14,9 +14,7 @@ public class S1_Count_Digit {
         {
             count++;
             n=n/10 ;
-
         }
-
         return count;
     }
 }
