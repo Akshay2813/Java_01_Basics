@@ -13,8 +13,8 @@ If no such index is found, return the size of the array.
 */
 //        int[] arr = {10, 20,30,40,50,60,70,80};
 
-       int [] arr = { 1,2,2,3};
-        int target = 2;
+       int [] arr = { 5,7,7,8,8,10};
+        int target = 8;
         System.out.println("Target of at Index= " + binarySearch_UpperBound(arr, target));
     }
 
