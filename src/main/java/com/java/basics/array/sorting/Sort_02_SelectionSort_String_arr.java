@@ -2,7 +2,7 @@ package com.java.basics.array.sorting;
 
 import java.util.Arrays;
 
-public class Sort_02_SelectionSort_String {
+public class Sort_02_SelectionSort_String_arr {
 
     public static void main(String[] args) {
         String[] arr = {"Zebra", "Ant", "Dog", "cat", "frog"};

@@ -4,10 +4,12 @@ public class B5_Search_Insert_Position {
 
     public static void main (String[] args)
     {
-
+        int [] arr = { 5,7,7,8,8,10};
+        int target = 9;
+        System.out.println(searchInsert(arr, target));
     }
 
-    public int searchInsert(int[] nums, int target) {
+    public static int searchInsert(int[] nums, int target) {
         int start=0;
         int end=nums.length-1;
 
@@ -29,4 +31,5 @@ public class B5_Search_Insert_Position {
         return ans;
 
     }
+
 }

@@ -13,6 +13,7 @@ public class Sort_01_SelectionSort_Arr {
 
     public static void selectionSort(int[] arr)
     {
+
         for(int i=0;i<arr.length-1;i++)
         {
             int minIndex=i;
@@ -27,7 +28,6 @@ public class Sort_01_SelectionSort_Arr {
             int temp=arr[minIndex];
             arr[minIndex]=arr[i];
             arr[i]=temp;
-
         }
     }
 }
